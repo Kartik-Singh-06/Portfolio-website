@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../assets/logo.png.png";
 import { Link } from "react-router-dom";
-import resume from "../assets/Kartik-resume-FD"
+import resume from "../assets/Kartik-resume-FD.pdf"
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
