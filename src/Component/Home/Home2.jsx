@@ -2,11 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiOutlineTwitter, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -16,52 +12,40 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET&nbsp;ME <span className="purple">INTRODUCE</span> MYSELF
             </h1>
+
             <p className="home-about-body">
-            I fell in love with programming and I'm learning something day by day keep going, Enjoying the process... 📖
-              <br />
-              <br />I am good in classics like
-              <i>
-                <b className="purple"> Core Java and Javascript. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to
-                <b className="purple">
-                 Web Applications
-                </b>
-              </i>
+              Crafting fast, accessible interfaces with{" "}
+              <span className="purple">React&nbsp;</span>is a daily habit,
+              honed while shipping ERP dashboards during an internship at Nestbotics Automation&nbsp;Pvt.&nbsp;Ltd.{" "}
+              I love transforming complex data into intuitive UIs, optimising performance, and
+              integrating robust REST APIs to keep users in flow.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js</b>
-              </i>
+              <em className="purple">Key stack:</em> React&nbsp;/ Redux&nbsp;Toolkit&nbsp;/ JavaScript&nbsp;(ES6+) &nbsp;|&nbsp; Tailwind&nbsp;CSS&nbsp;/ Material&nbsp;UI &nbsp;|&nbsp; Git&nbsp;+&nbsp;Vercel.
+              <br />
+              <br />
+              When not polishing pixels, you will find me experimenting with conversational AI (Kai&nbsp;Agent), binging movie metadata on CineFlix, or refining a live food-ordering flow.
+              <br />
+              <br />
+              Let’s build something delightful together!
             </p>
           </Col>
+
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
+
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>FIND&nbsp;ME&nbsp;ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="purple">connect</span> and chat about code,
+              design, or the latest gaming release.
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
@@ -69,7 +53,7 @@ function Home2() {
                   href="https://github.com/Kartik-Singh-06"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
@@ -79,7 +63,7 @@ function Home2() {
                   href="https://www.linkedin.com/in/kartik-singh-6b63871a5/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -101,4 +85,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;

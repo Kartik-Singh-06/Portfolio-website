@@ -8,9 +8,12 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiNodejs,
 } from "react-icons/di";
 import {
+  SiExpress,
  SiFirebase,
+ SiMui,
  SiTailwindcss
 } from "react-icons/si";
 
@@ -42,6 +45,17 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
       </Col>
+      
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNodejs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiExpress />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMui />
+      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
        <SiTailwindcss />
       </Col>

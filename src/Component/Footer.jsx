@@ -44,7 +44,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/kartik_singh_06/"
+                href="https://www.instagram.com/_kartik__thakur__7/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
