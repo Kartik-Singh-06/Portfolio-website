@@ -7,7 +7,8 @@ import refokus from "../../assets/Projects/Refokus.png";
 import cineflix from "../../assets/Projects/Cine-flix.png";
 import food from "../../assets/Projects/food-app.png";
 import expo from "../../assets/Projects/Exoape.png";
-import currency from "../../assets/Projects/Currency.png"
+import currency from "../../assets/Projects/Currency.png";
+import kai from "../../assets/Projects/kai.png";
 
 function Projects() {
   return (
@@ -21,6 +22,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={kai}
+              isBlog={false}
+              title="Kai – AI Agent Application"
+              description='Kai is an intelligent full-stack AI chat application that redefines conversational interaction. Built using React, Bun, LangChain, OpenAI API, Tailwind CSS, and Axios, it offers a seamless and responsive chat experience powered by advanced natural language understanding. The app features dark/light theme toggling, markdown-rendered and a clean, modern UI for intuitive user engagement.'
+              ghLink="https://github.com/Kartik-Singh-06/ai-agent-gp"
+              demoLink="https://ai-agent-gp.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={cineflix}
@@ -51,7 +62,7 @@ function Projects() {
               title="Exo Ape"
               description="Exo Ape, a website clone built with React and powered by the Framer Motion library, redefines the concept of dynamic web experiences. Leveraging the latest in animation technology, Exo Ape offers a visually stunning interface that captivates users. With Framer Motion's capabilities, the site boasts seamless animations, interactive elements, and smooth transitions, enhancing user engagement and navigation. "
               ghLink="https://github.com/Kartik-Singh-06/exoape.git"
-              demoLink="https://exoape-two.vercel.app/"              
+              demoLink="https://exoape-two.vercel.app/"
             />
           </Col>
 
@@ -85,7 +96,7 @@ function Projects() {
               description="
               Sundown, an animated website clone crafted with HTML, CSS, and JavaScript, elevates web experiences through smooth scrolling and dynamic animations. Leveraging GSAP for animation, Sundown implements scroll triggers seamlessly, enhancing user interaction and engagement. The site's design showcases fluid transitions, captivating visuals, and an immersive storytelling experience."
               ghLink="https://github.com/Kartik-Singh-06/SunDown.git"
-              demoLink="https://sun-down.vercel.app/"      
+              demoLink="https://sun-down.vercel.app/"
             />
           </Col>
         </Row>
